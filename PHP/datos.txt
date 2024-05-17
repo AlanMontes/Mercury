@@ -1,0 +1,5 @@
+Id: , nombre: , des: 
+Id: 1, nombre: papas, des: Son un tipo de papitas sabor vainilla que puedes comer
+Id: 1, nombre: papas, des: Son un tipo de papitas sabor vainilla que puedes comer,125, 123, 156,123,2023-05-23,2023-05-23
+Id: , nombre: , des: ,, , ,,,
+Id: , nombre: , des: ,, , ,,,

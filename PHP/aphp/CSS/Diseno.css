@@ -1,0 +1,306 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital@0;1&family=Playfair+Display&family=Ubuntu+Condensed&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Source+Code+Pro:wght@600&display=swap');
+
+/*Fondo*/
+.indice{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+	background-image: url("/Mercury/PHP/aphp/IMAGENES/fondo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*General*/
+div.cont1{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+	padding:2%;
+}
+div.cont2{
+    position: relative;
+    box-shadow: 4px 4px 4px 2px rgba(36, 36, 36, 0.2);
+    border-radius: 30px;
+    background-color: #fff;
+    width:75%;
+    padding: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+footer{
+    background-color: #136966; 
+    color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+#linkNav {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#linkNav:hover {
+    color: #20b6a4;
+}
+@media print {
+    @page {
+      margin-left: 0.8in;
+      margin-right: 0.8in;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+ }
+  
+ .texto {
+    text-align: justify;
+    text-justify: inter-word;
+ }
+/**/
+/*Inicio sesion*/
+div.cont2i{
+    position: relative;
+    box-shadow: 4px 4px 4px 2px rgba(36, 36, 36, 0.2);
+    border-radius: 30px;
+    background-color: #ffffff00;
+    width:80%;
+    padding: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+div.cont1i{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+	padding:7%;
+}
+table{
+	border-spacing: 0; 
+	padding: 1px;
+	width: 100%;
+}
+
+.usuario label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: rgba(255, 255, 255, 0.404);
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+    transition: .5s;
+}
+.iniciar{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #8C2425;
+    border-radius: 25px;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    outline: none;
+}
+.ntc{/*letras de no tengo cuenta*/
+	align-self: center;
+	font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+	color: #fff;
+}
+.contenedor2{
+	margin: 10%;
+	display:flex;
+	justify-content: center;
+	border-radius: 30px;
+}
+.conth2{
+	position: relative;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	border-radius: 30px;
+}
+.inicios{/*Lado del formulario*/
+	background-color: #1A9A8B;/*1A9A8B*/
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.logo{
+	background-color: #ffffff;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+}
+.iima{/*Imagen logo*/
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 15%;
+}
+form .usuario{
+	position: relative;
+	
+	margin: 30px 0;
+}
+.usuario input{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	outline:none;
+	border-bottom:  1px solid #a79f9f69;
+}
+.usuario span::before{
+    content:'';
+    position:absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transition: .5s;
+}
+.usuario input:focus ~ label,
+.usuario input:focus ~ label{
+    top: -5px;
+    color:#1A9A8B;
+}
+.usuario input:focus ~ span::before,
+.usuario input:focus ~ span::before{
+    width: 100%;
+}
+/*Registro*/
+.iform{
+	position: absolute;
+	width: 400px;
+}
+.InRe{
+	position: relative;
+	margin: 30px 0;
+}
+input[type="button"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+
+    border-radius: 25px;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    outline: none;
+}
+.IS{
+    background: #167369;/*E9262C*/
+}
+.RE{
+	background: #479e94;/*D4454A*/
+}
+input[type="button"]:hover{
+    border-color: rgb(23, 23, 23);
+    transition: .5s;
+}
+.tt{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+	align-self: center;
+	position: relative;	
+	color: white; 
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.im{
+	position: absolute;
+	transform: translate(-55%, -50%);
+	
+}
+
+.contenedor{
+	display:flex;
+	justify-content: center;
+}
+.conth{
+	position: relative;
+	padding: 15%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+
+
+
+
+.formulario{
+	position: relative;
+	width: 400px;
+	border-radius: 10px;
+}
+.formulario h1{
+	text-align: center;
+	padding: 0 0 20px 0;
+	font-family: Barlow Condensed;
+	color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+.formulario form{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+
+input[type="submit"]:hover{
+    border-color: rgb(23, 23, 23);
+    transition: .5s;
+}
+
+/*Registro Inicial Diseño*/
+.reg{
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url("/Mercury/PHP/aphp/IMAGENES/fondo.png");
+    height: 100vh;
+}
+h1{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:rgb(107, 106, 106);
+}
+
+
+table.cor {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th.cor1, td.cor2 {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+table.cor3{
+    width: 80%;
+}
+    td.cor4{
+        text-align: center;
+    }
+
+.llenado{
+	width: 100%;
+	background: #ffffff;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #fff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+}
+
+.btn {
+    transition-duration: 0.4s;
+    background-color: #8C2425;
+    color: white;
+}
+.btn:hover {
+    background-color: #a72d2f;
+    color: white;
+}
+
+
+
+
+
